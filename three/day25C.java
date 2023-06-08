@@ -15,7 +15,7 @@ public class day25C {
 		}
 		//something that handles exception written in catch block
 		//ie; something that can bypass that exception-causing statement and continue the normal flow of program
-		catch(ArithmeticException e) {  //here ArithmeticExpression is a class; so e is the object created of datatype ArithmeticException
+		catch(ArithmeticException e) {  //here ArithmeticException is a class; so e is the object created of datatype ArithmeticException
 			System.out.println("in catch");
 			e.printStackTrace(); // the object 'e' can have properties and methods too;
 			//above, printstacktrace() method gives information about the type of exception

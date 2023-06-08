@@ -9,15 +9,18 @@ public class collections1arraylist {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//collectibles: arraylist,hashmap,
-		//collectibles: is a package that has in-built classes like arraylist,hashmap,etc.
+		//collections: arraylist,hashmap,hashset
+		//collections: is a package that has in-built classes like arraylist,hashmap,hashsetetc.
+		//collections: two types; ordered and non-ordered
+		//arraylist: ordered collection because it's based on order of datas; like the position or index of the element
+		//SEt and map: are non-ordered collection; because it's not based on order of datas; like the position or index of the element
 
 		//Array has fixed set of values
 		//Arraylist can modify the size of elements
 		//object of these classes (like arraylist cArrayList<E> properties and methods
 		
 		ArrayList<String> fruits= new  ArrayList<String>();
-		// now you can do add, retrieve, update, delete from this collectible class named arraylist and also apply for, foreach loop
+		// now you can do add, retrieve, update, delete from this collection class named arraylist and also apply for, foreach loop
 		//similarly using different method specific to each class ; yiu can perform these four functions plus apply for loop to get individual value
 		
 		//add 

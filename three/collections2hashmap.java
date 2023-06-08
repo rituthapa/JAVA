@@ -40,7 +40,8 @@ public class collections2hashmap {
 			System.out.println(fruitcolor.get(key)); // this is same as for each loop for values; gives values
 														// individually
 		}
-		//for loop cant be used in hashmap and hashset collectibles because doesnt store eleements by 
+		//for loop can't be used in hashmap and hashset collectibles because doesnt store eleements in order by index
+		//use for reach only for looping
 
 		for (String val : fruitcolor.values()) {
 			System.out.println(val);

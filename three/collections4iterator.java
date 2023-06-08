@@ -20,7 +20,7 @@ public class collections4iterator {
 		countries.add("india");
 		countries.add("usa");
 		
-		//iterator itself is a method inside arraylist
+		//iterator itself is a method inside the collection(arraylist,hashset)
 		//Tterator<> class is defined now
 		//the elements doesn't have index or key to refer back to , so you get the element by iteration or going next to reach to one element after another
 		//next() method of iterator to get the first value and then doing next method again and again to get every next value
